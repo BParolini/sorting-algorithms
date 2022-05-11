@@ -4,7 +4,7 @@ import io.bparolini.sort.util.NumberListUtils;
 
 public class BubbleSort {
     public static void main(String[] args) {
-       var numbers = NumberListUtils.generateNumberArray(10, 1000000);
+        var numbers = NumberListUtils.generateNumberArray(10, 1000000);
 
         System.out.println("Before:");
         NumberListUtils.printArray(numbers);
