@@ -1,18 +1,14 @@
 package io.bparolini.sort;
 
-import java.util.ArrayList;
+import io.bparolini.sort.util.NumberListUtils;
+
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class ShuffleSort {
 
     public static void main(String[] args) {
-        var rand = new Random();
-        List<Integer> numberList = new ArrayList<>();
-        for (var i = 0; i < 12; i++) {
-            numberList.add(rand.nextInt(10000));
-        }
+        var numberList = NumberListUtils.generateNumberList(12, 10000);
 
         while (!isListSorted(numberList)) {
             Collections.shuffle(numberList);
