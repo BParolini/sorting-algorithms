@@ -1,0 +1,8 @@
+.idea
+.gradle
+**/build
+Thumbs.db
+.DS_Store
+.uuid
+desktop.ini
+
