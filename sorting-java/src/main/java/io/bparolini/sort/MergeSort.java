@@ -12,7 +12,7 @@ public class MergeSort {
         //sorting
         mergeSort(numbers);
 
-        System.out.println("Before:");
+        System.out.println("After:");
         NumberListUtils.printArray(numbers);
     }
 

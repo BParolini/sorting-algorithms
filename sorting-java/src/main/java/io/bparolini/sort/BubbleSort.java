@@ -26,7 +26,7 @@ public class BubbleSort {
             }
         }
 
-        System.out.println("Before:");
+        System.out.println("After:");
         NumberListUtils.printArray(numbers);
     }
 }
