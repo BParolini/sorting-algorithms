@@ -48,26 +48,20 @@ public class MergeSort {
 
         while (i < leftSize && j < rightSize) {
             if (leftHalf[i] <= rightHalf[j]) {
-                inputArray[k] = leftHalf[i];
-                i++;
+                inputArray[k] = leftHalf[i++];
             }
             else {
-                inputArray[k] = rightHalf[j];
-                j++;
+                inputArray[k] = rightHalf[j++];
             }
             k++;
         }
 
         while (i < leftSize) {
-            inputArray[k] = leftHalf[i];
-            i++;
-            k++;
+            inputArray[k++] = leftHalf[i++];
         }
 
         while (j < rightSize) {
-            inputArray[k] = rightHalf[j];
-            j++;
-            k++;
+            inputArray[k++] = rightHalf[j++];
         }
     }
 }
