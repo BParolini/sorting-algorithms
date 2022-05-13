@@ -6,3 +6,4 @@ The already implemented sorting algorithms are:
 - [BubbleSort](src/main/java/io/bparolini/sort/BubbleSort.java)
 - [MergeSort](src/main/java/io/bparolini/sort/MergeSort.java)
 - [QuickSort](src/main/java/io/bparolini/sort/QuickSort.java)
+- [InsertionSort](src/main/java/io/bparolini/sort/InsertionSort.java)
